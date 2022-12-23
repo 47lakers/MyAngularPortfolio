@@ -1,0 +1,152 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-lg-4 d-flex justify-content-center">
+      <!-- Need an extra div so that every other card doesn't open when you open just one -->
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/ReviewMyInternship.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse1.toggle()"
+              [attr.aria-expanded]="!isCollapsed1"
+              aria-controls="collapseExample1"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse1="ngbCollapse" [(ngbCollapse)]="isCollapsed1">
+            <div>
+              <p class="card-text">
+                I began this project right before I started working at VMware. This was the first full stack application that I created by myself,
+                and I built it using C# for the backend, MongoDB for the database, and HTML, CSS, Javascript for the frontend.
+                I hosted it with Azure. I learned so much while working on this project, everything from authentication to
+                connecting a .NET app to a MongoDB database. If you want to check it out, click on the link below!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://ratemyinternships.azurewebsites.net/" target="_blank"> Visit ReviewYourInternship</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Udemy.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse2.toggle()"
+              [attr.aria-expanded]="!isCollapsed2"
+              aria-controls="collapseExample2"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse2="ngbCollapse" [(ngbCollapse)]="isCollapsed2">
+            <div>
+              <p class="card-text">
+                During this intensive 30 hour course, I've learned many frontend skills and backend skills while also creating beautiful websites. An example of just one of the websites I created during this course, is a todo list, and it uses a Node js backend. Click on the link below to view
+                the description of this web dev course, or visit my Github to see some of the projects I've worked on!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://www.appbrewery.co/p/ios13-app-development-lessons" target="_blank"> Check out this course!</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Udemy.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse3.toggle()"
+              [attr.aria-expanded]="!isCollapsed3"
+              aria-controls="collapseExample3"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse3="ngbCollapse" [(ngbCollapse)]="isCollapsed3">
+            <div>
+              <p class="card-text">
+                During this intensive 50 hour course, I managed to build over 10 IOS applications, ranging anywherefrom a simple Tip calculator to a Bitcoin price tracker.
+                To end off the course, I decided to see what I could create by myself with no help from the Tutorials, and I created a reminder app that lets the user say choose the date, time and if the reminder should repeat every day or week.
+                Click on the link below to check out the code for my app!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://github.com/47lakers/ReminderApp" target="_blank">Check out this course!</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/GitHub.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse4.toggle()"
+              [attr.aria-expanded]="!isCollapsed4"
+              aria-controls="collapseExample4"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse4="ngbCollapse" [(ngbCollapse)]="isCollapsed4">
+            <div>
+              <p class="card-text">
+                If you want to see the rest of my projects, click on the link below!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://github.com/47lakers" target="_blank"> View my Github Repos</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

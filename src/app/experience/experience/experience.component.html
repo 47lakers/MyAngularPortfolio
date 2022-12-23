@@ -1,0 +1,193 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-lg-4 d-flex justify-content-center">
+      <!-- Need an extra div so that every other card doesn't open when you open just one -->
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/VMW.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse1.toggle()"
+              [attr.aria-expanded]="!isCollapsed1"
+              aria-controls="collapseExample1"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse1="ngbCollapse" [(ngbCollapse)]="isCollapsed1">
+            <div>
+              <p class="card-text">
+                When I was asked by a previous manager if I could switch to the Engineering
+                Service Team because of a hiring freeze, I was optimistic and at the same time nervous.
+                I was optimistic because VMware has a great culture, and I was excited to get to meet
+                and work with more people. I was nervous because I wasn't familiar with any of the tech
+                stack. I of course said yes, and I'm so glad that I got to transition to this current team.
+                I've learned so much in such a short time, including the kinds of infrastructure we use as
+                well as the repository tools we use for WS1 UEM.
+                Click on the link to Workspace-One Unified Unified-Endpoint-Management!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://www.vmware.com/products/workspace-one/unified-endpoint-management.html" target="_blank"> VMware WS1 UEM</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/VMW.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse2.toggle()"
+              [attr.aria-expanded]="!isCollapsed2"
+              aria-controls="collapseExample2"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse2="ngbCollapse" [(ngbCollapse)]="isCollapsed2">
+            <div>
+              <p class="card-text">
+                When I first came to VMware, I was assigned to the UEM Updates, Cryptography, and Diagnostics team.
+                Although I came in knowing how to work with SQL and .NET, I learned so much in the three months spent
+                on this team, and everything I learned either came from my own mistakes or the tips and tricks of the
+                staff engineers on the team. I worked on everything from bug fixes in Angular, bug fixes in C#, and research
+                methods to see if a SQL query can be optimized or not.
+                Click on the link to Workspace-One Unified Unified-Endpoint-Management!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://www.vmware.com/products/workspace-one/unified-endpoint-management.html" target="_blank"> VMware WS1 UEM</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Pepperdine.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse3.toggle()"
+              [attr.aria-expanded]="!isCollapsed3"
+              aria-controls="collapseExample3"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse3="ngbCollapse" [(ngbCollapse)]="isCollapsed3">
+            <div>
+              <p class="card-text">
+                As an intern with the Pepperdine Computer Science Department,
+                I created a web app using HTML, CSS, JavaScript for the frontend and ASP.NET along with SQL for the backend.
+                This web app tracks all the financial transactions that Pepperdine has made starting in 2006.
+                This web app also keeps records of all the pending and requested transactions that Pepperdine has made and is going to make for the future.
+              </p>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/StreamHatchet.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse4.toggle()"
+              [attr.aria-expanded]="!isCollapsed4"
+              aria-controls="collapseExample4"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse4="ngbCollapse" [(ngbCollapse)]="isCollapsed4">
+            <div>
+              <p class="card-text">
+                As an intern at Stream Hatchet, my main task was to build a cross platform mobile app. React Native and Javascript were the main tools used to create the functionality that Stream Hatchet wants in their mobile app. Click on the link to check out Stream Hatchet!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://streamhatchet.com/" target="_blank"> Learn About Stream Hatchet</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/TCSD.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse5.toggle()"
+              [attr.aria-expanded]="!isCollapsed5"
+              aria-controls="collapseExample5"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse5="ngbCollapse" [(ngbCollapse)]="isCollapsed5">
+            <div>
+              <p class="card-text">
+                As a Co-Op at the Tulare City School District, I would help teachers with their technical issues, fix the chromebooks that the students break, and collect old parts from different classrooms. Click on the link to learn more about Tulare City Schools!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://www.tcsdk8.org/" target="_blank"> Learn About TCSD </a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+

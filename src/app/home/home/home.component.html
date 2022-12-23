@@ -1,0 +1,115 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-lg-4 d-flex justify-content-center">
+      <!-- Need an extra div so that every other card doesn't open when you open just one -->
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Ira.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse1.toggle()"
+              [attr.aria-expanded]="!isCollapsed1"
+              aria-controls="collapseExample1"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse1="ngbCollapse" [(ngbCollapse)]="isCollapsed1">
+            <div>
+              <p class="card-text">
+                Welcome to my portfolio.
+                I am an aspiring software developer. When I am not coding, I enjoy playing basketball, lifting weights, and kickboxing.
+                One huge aspect of my life that I have to mention is my faith. I try my best to live in a way that would make Jesus proud, and to me this means loving my neighbor as myself.
+                Click on the link below to view my Linkin page!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/ira-porchia/" target="_blank"> Visit my LinkedIn</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Resume.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse2.toggle()"
+              [attr.aria-expanded]="!isCollapsed2"
+              aria-controls="collapseExample2"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse2="ngbCollapse" [(ngbCollapse)]="isCollapsed2">
+            <div>
+              <p class="card-text">
+                Click on the link to check out my resume!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="assets/Resume.pdf" target="_blank"> View my Resume</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 d-flex justify-content-center">
+
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Pepperdine.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <div class="clickHereButton">
+              <button
+              type="button"
+              class="card-title btn btn-outline-dark"
+              (click)="collapse3.toggle()"
+              [attr.aria-expanded]="!isCollapsed3"
+              aria-controls="collapseExample3"
+            >
+              Click Here!
+            </button>
+            </div>
+          <div #collapse3="ngbCollapse" [(ngbCollapse)]="isCollapsed3">
+            <div>
+              <p class="card-text">
+                I graduated from Pepperdine University with a BA in Computer Science/Mathematics. I obtained a 3.4 gpa
+                while also participating in some awesome clubs such as the Computer Science Club and the Black
+                Student Association. Click on the link below to learn more about Pepperdine's Computer Science Program!
+              </p>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <a href="https://seaver.pepperdine.edu/natural-science/undergraduate/computer-science/" target="_blank"> Pepperdine's CS Program</a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
